@@ -3,8 +3,9 @@
 1. Download the [zip file](https://github.com/skokielibrary/better-evanced/archive/master.zip) to your computer (or clone it with git).
 2. Right-click on the zip file and extract it (don't just double click on the zip archive)
 3. In Chrome, open chrome://extensions/
-4. Click Load unpacked extension…
-5. Navigate to the extension’s folder and click OK
+4. Check the "Developer mode" checktop.
+5. Click Load unpacked extension…
+6. Navigate to the extension’s folder and click OK
 
 
 ## Using the extension
