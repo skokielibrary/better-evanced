@@ -1,9 +1,10 @@
 ## Install the extension
 
-1. Clone the repository to your computer
-2. In Chrome, open chrome://extensions/
-3. Click Load unpacked extension…
-4. Navigate to the extension’s folder and click OK
+1. Download the [zip file](https://github.com/skokielibrary/better-evanced/archive/master.zip) to your computer (or clone it with git).
+2. Right-click on the zip file and extract it (don't just double click on the zip archive)
+3. In Chrome, open chrome://extensions/
+4. Click Load unpacked extension…
+5. Navigate to the extension’s folder and click OK
 
 
 ## Using the extension
