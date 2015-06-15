@@ -1,0 +1,265 @@
+/*hiding*/
+.list_utils_text{
+  display: none;
+}
+
+body{
+  max-width: 68.75rem;
+  margin: auto !important;
+  padding: 70px .9375rem 2rem !important;
+  background-color: #fbfafa !important;
+  font-size: 100% !important;
+  line-height: 1.4;
+  color: #706259 !important;
+  box-sizing: border-box;
+}
+
+body a:link {
+  color: #00747F !important;
+  text-decoration: none;
+}
+
+h3{
+  font-weight: 400 !important;
+}
+
+b, strong{
+  font-weight: 400 !important;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
+}
+
+input[type=text], input[type=password], select{
+  -webkit-border-radius: 0;
+  background-color: #fff;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  color: #594A41;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  padding: .5rem;
+  height: 2.4375rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow .45s,border-color .45s ease-in-out;
+}
+
+select{
+  width: auto;
+}
+
+input[type=button], input[type=submit]{
+  padding: .875rem 1.75rem .9375rem;
+  background: #fff;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+
+.centertext input[type=button], .centertext input[type=submit], .entryformdata input[type=button], .entryformdata input[type=submit]{
+  font-size: 1rem !important;
+}
+
+form input[type=button], form input[type=submit]{
+  margin-top: 1rem;
+}
+
+input[type=submit]{
+  border: 0 !important;
+  background-color: #00747F !important;
+  color: #fff !important;
+}
+
+.requestconfirm table, td, tr{
+  color: #706259 !important;
+}
+
+#header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  border: 0 !important;
+}
+
+#header .title{
+  display: none;
+}
+
+#header table{
+  max-width: 68.75rem;
+  margin: auto;
+  padding: 0 .9375rem !important;
+}
+
+.small-back{
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  color: #856e61 !important;
+  font-family: inherit !important;
+  font-weight: normal !important;
+  font-size: 11px !important;
+  text-transform: uppercase;
+}
+
+form .backbtn{
+  display: none;
+}
+
+.title, .list_title{
+  max-width: 68.75rem;
+  margin: 4rem auto .25rem;
+  padding: 0;
+  font-family: inherit;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: #EE3E2C;
+  text-transform: uppercase;
+  background-color: transparent !important;
+  text-align: left !important;
+}
+
+th.list_title, tr.list_title{
+  border: 0 !important;
+  color: #EE3E2C !important;
+  padding: 2rem 0 .25rem;
+}
+
+.requestconfirm{
+  display: none;
+  width: 66.66667%;
+  max-width: 700px;
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+  font-size: .875rem !important;
+  font-style: italic;
+  color: #706259 !important;
+}
+
+.requestconfirm font{
+  color: #706259 !important;
+}
+
+.entryform{
+  width: 66.66667% !important;
+  max-width: 700px;
+  margin: 1rem 0 1rem -10px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  font-size: 100% !important;
+}
+
+div div .entryform{
+  margin: 0 0 0 -16px !important;
+  padding: 0 !important;
+}
+
+.entryform.bordercollapse{
+  width: 100% !important;
+}
+
+.entryform .title {
+  text-transform: none;
+  color: #00747F !important;
+  font-size: 26px !important;
+  padding: 0 0 0 3px !important;
+}
+
+.event_values{
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.event_values b {
+  display: block;
+  margin: .75rem 0px 2px;
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.event_values div{
+  float: none !important;
+  margin-left: 0 !important;
+}
+
+.entryformlabel, .entryformdata{
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  font-size: 1rem !important;
+}
+
+.entryformdata{
+  text-align: left !important;
+}
+
+.entryformlabel{
+  padding-top: .5rem !important;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  color: #594A41 !important;
+  font-weight: 400 !important;
+}
+
+.entryformdata{
+  padding: 0 0 .5rem !important;
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem !important;
+  font-family: inherit;
+  color: inherit;
+  vertical-align: middle !important;
+}
+
+.entryformdata ul{
+  margin: 1rem 0;
+  padding-left: 1rem !important;
+}
+
+.entryformtitle{
+  padding: 0 0 1rem !important;
+}
+
+.requestconfirm ul, li {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  list-style: square;
+  list-style-position: outside;
+}
+
+#PhoneAC, #Phone1, #Phone2, #PhoneExt, input[name=AreaCode2], input[name=PhoneFirst2], input[name=PhoneSecond2], #Phone2Ext{
+  display: inline-block;
+  width: auto;
+}
+
+.centertext{
+  text-align: left !important;
+}
+
+/*patron schedule*/
+
+form[name=patronsched] .entryform{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+th.entryformlabel{
+  text-transform: uppercase;
+  font-size: .875rem;
+}
